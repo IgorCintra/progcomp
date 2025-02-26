@@ -1,0 +1,40 @@
+body{
+            font-family: Arial, Helvetica, sans-serif; /* Fonte */
+            display: flex; /*Usa o FlexBox*/
+            justify-content: center; /* Centraliza na horizontal */
+            background-color: rgb(31, 34, 241);
+            height: 100vh; /* Altura da págima é todo o conteúdo dela */
+            align-items: center; /* Centraliza na vertical */
+        }
+        .container{
+            background-color: rgb(72, 72, 221);
+            padding: 20px; /* Espaçamento interno */
+            border-radius: 0.5rem; /* Arredonda bordas */
+            box-shadow: 4px 8px; /* Sombreamento 4px (horizontal) 8px (vertical) */
+            text-align: center; /* Centraliza texto */
+        }
+
+        button{
+            border: none; /*Retira a borda */
+            background-color: rgb(255, 255, 255);
+            height: 35px;
+            border-radius: 5px; /* Arredonda bordas */
+            cursor: pointer; /* Mouse vira um ponteiro */
+            padding: 5px; /* Espaçamento interno */
+        }
+
+        button:hover{
+            background-color: rgb(236, 236, 236);
+            box-shadow: 4px 5px black;
+            transition: 0.7s all;
+        }
+
+        .h2 {
+            padding: 1.5px;
+        }
+
+        .imagem{
+            height: 200px;
+            border-radius: 50%; /* Faz virar uma bolinha */
+            margin-bottom: 10px; /* Espaçamento externo */
+        }
